@@ -164,12 +164,16 @@ main > section{
         flex-direction: column;
     }
 
-    .team-image-container{
+    .team-image-container, .facts-container{
         grid-template-columns: repeat(1, 1fr);
     }
 
     .our-features{
         margin-left: 20px;
+    }
+    .facts-container{
+        justify-items: center;
+        gap: 25px;
     }
 }
 
