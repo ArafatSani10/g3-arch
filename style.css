@@ -121,7 +121,30 @@ main > section{
 .features-description{
     color: #727272;
 }
+/* features related style */
 
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.featured-card, .featured-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.fearture-card{
+    padding: 30px;
+    box-sizing: 0px 4px 30px 0 rgba(0,0,0,0.06) ;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.features{
+    gap: 140px;
+}
 
 /* some fact related style */
 
@@ -191,7 +214,7 @@ main > section{
     .our-features{
         margin-left: 20px;
     }
-    .facts-container,{
+    .facts-container{
         justify-items: center;
         gap: 25px;
     }
