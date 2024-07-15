@@ -211,6 +211,31 @@ main > section{
 }
 
 
+/* fotter */
+
+.footer-container{
+    width: 1440px;
+height: 100px;
+margin: 0 auto;
+border: 2px solid red;
+border-radius: 8px;
+
+background: rgb(255, 244, 231);
+margin-top: 180px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer-content{
+      font-size: 1.4rem;
+}  
+
 /* responsive media query */
 
 @media screen and (max-width:576px) {
@@ -245,7 +270,17 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .footer-content{
+
+        flex-direction: column;
+        text-align: center;
+    }
 }
+}
+
+/* footer related style here */
+
+
 
 /* medium size device */
 
@@ -268,5 +303,11 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    .footer-content{
+
+        flex-direction: column;
+        text-align: center;
     }
 }
