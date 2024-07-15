@@ -13,6 +13,11 @@
 
 .bg-color{
     background-color: rgba(255, 144, 14, 0.1);
+    width: 1400px;
+    margin: 0 auto;
+ 
+
+   
 }
 
 .display-flex{
@@ -29,7 +34,7 @@
 }
 
 main{
-    max-width: 1440px;
+    max-width: 1000px;
     margin: 0 auto;
 
 }
@@ -52,6 +57,7 @@ main > section{
 
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .brand{
@@ -276,7 +282,7 @@ margin-top: 180px;
         text-align: center;
     }
 }
-}
+
 
 /* footer related style here */
 
